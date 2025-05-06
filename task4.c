@@ -105,5 +105,7 @@ int main (void)
 		printf("%.2f\t\t%lf\n", freq, rmse);
 	}
 
+	free (t), free (val), free (decimated), free (interpolated);
+
     return 0;
 }
